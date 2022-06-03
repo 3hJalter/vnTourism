@@ -1,0 +1,3562 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#"
+     xml:base="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:time="http://www.w3.org/2006/time#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vntourism="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism">
+        <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#chosenCapitalBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#chosenCapitalBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasAdministrativeDivision -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasAdministrativeDivision"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBorn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBorn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBornAt -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBornAt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBuildBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBuildBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBuildTime -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBuildTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBuriedAt -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasBuriedAt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasCareerLevel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasCareerLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasCertification -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasCertification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasChronology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasChronology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasCountry -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasCountry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasDegree -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasDegree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasDescription -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasDescription"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasDied -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasDied"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasFestival -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasFestival"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasHistoricalSiteLevel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasHistoricalSiteLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasJob -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasJob"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasLunarChronology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasLunarChronology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasNational -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasNational"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasOrganization -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasOrganization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasPeriod -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasPeriod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasReignFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasReignFrom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasReignTo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasReignTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasSameEducationDegreeLevel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasSameEducationDegreeLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasSuccessor -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasSuccessor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasTimeHappen -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#hasTimeHappen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#isApartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#isApartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#orKnownAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#orKnownAs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#stateIn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#stateIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#wasDerivedFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#wasDerivedFrom"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#historyNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#historyNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narower -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narower"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#related"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#parentSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#parentSubject">
+        <rdfs:seeAlso>https://www.w3.org/2004/02/skos/core/broader</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_beginning&apos; -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_beginning&apos;">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_time&apos;"/>
+        <rdfs:label>has beginning</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_end&apos; -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_end&apos;">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_time&apos;"/>
+        <rdfs:label>has end</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_time&apos; -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;has_time&apos;">
+        <rdfs:label>has time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AbroadFestival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AbroadFestival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival"/>
+        <rdfs:label xml:lang="vn">Lễ hội du nhập từ nước ngoài</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AdministrativeDivision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AdministrativeDivision">
+        <rdfs:label xml:lang="en">AdministrativeDivision</rdfs:label>
+        <rdfs:label xml:lang="vn">Đơn vị hành chính</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Am -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Am">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArchaeologicalHistoricalSite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArchaeologicalHistoricalSite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite"/>
+        <rdfs:label xml:lang="vn">Di tích khảo cổ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite"/>
+        <rdfs:label xml:lang="vn">Di tích kiến trúc nghệ thuật</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AttachedToHistoricalEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AttachedToHistoricalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalSite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AttachedToHistoricalFigure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AttachedToHistoricalFigure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalSite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AttachedToRevolutionsAndResistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AttachedToRevolutionsAndResistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalSite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm Môn – Khmer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Buddhism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Buddhism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Đạo phật</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#BuddhistTemple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#BuddhistTemple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+        <rdfs:label xml:lang="vn">Chùa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bố_chính -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bố_chính">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bộc_xạ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bộc_xạ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Caodaism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Caodaism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Cao Đài</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Catholicism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Catholicism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Công giáo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chancellery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chancellery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+        <rdfs:label xml:lang="en">Chancellery</rdfs:label>
+        <rdfs:label xml:lang="vn">Tể tướng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chi_hậu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chi_hậu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Christianity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Christianity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Kitô giáo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Châu_mục -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Châu_mục">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chỉ_huy_sứ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chỉ_huy_sứ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CitadelArchitecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CitadelArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite"/>
+        <rdfs:label xml:lang="vn">Kiến trúc thành quách</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CommunalVillageHouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CommunalVillageHouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+        <rdfs:label xml:lang="vn">Đình</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country">
+        <hasDescription xml:lang="en">The name of the country through historical periods</hasDescription>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:label xml:lang="vn">Tên đất nước</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalSite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalSite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite"/>
+        <rdfs:label xml:lang="vn">Di tích lịch sử văn hóa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cấp_sự -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cấp_sự">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dụ_đức -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dụ_đức">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle">
+        <rdfs:label xml:lang="en">EducationDegreeTitle</rdfs:label>
+        <rdfs:label xml:lang="vn">Học vị</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival"/>
+        <rdfs:label xml:lang="vn">Dân tộc</rdfs:label>
+        <rdfs:label xml:lang="en">Ethnic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival">
+        <rdfs:label xml:lang="en">Festival</rdfs:label>
+        <rdfs:label xml:lang="vn">Lễ hội</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FolkArchitecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FolkArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite"/>
+        <rdfs:label xml:lang="vn">Kiến trúc dân gian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FolkReligion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FolkReligion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Tín ngưỡng dân gian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <orKnownAs xml:lang="vn">HistoricSite</orKnownAs>
+        <rdfs:label xml:lang="vn">Di tích lịch sử</rdfs:label>
+        <rdfs:label xml:lang="en">HeritageSite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricEvent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">HistoricEvent</rdfs:label>
+        <rdfs:label xml:lang="vn">Sự kiện lịch sử</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricSiteLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricSiteLevel">
+        <orKnownAs xml:lang="en">HistoricSiteLevel</orKnownAs>
+        <rdfs:label xml:lang="vn">Cấp độ di tích lịch sử</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hoahaoism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hoahaoism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Hòa Hảo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm Kadai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Landscape-Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Landscape-Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ScenicHistoricalSites"/>
+        <rdfs:label xml:lang="vn">Cảnh quan, địa điểm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LandscapeArchitecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LandscapeArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite"/>
+        <rdfs:label xml:lang="vn">Kiến trúc vườn cảnh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm Nam đảo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ScenicHistoricalSites"/>
+        <rdfs:label xml:lang="vn">Khu vực thiên nhiên</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent">
+        <rdfs:label xml:lang="en">NaturalTalent</rdfs:label>
+        <rdfs:label xml:lang="vn">Tài năng thiên bẩm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Nghè -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Nghè">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization">
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+        <rdfs:label xml:lang="vn">Tổ chức, cơ quan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherFestival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherFestival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherReligion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherReligion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Các tôn giáo, tín ngưỡng khác</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherReligiousArchitecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherReligiousArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PalaceMansionArchitecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PalaceMansionArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite"/>
+        <rdfs:label xml:lang="vn">Kiến trúc cung điện - dinh thự</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period">
+        <rdfs:label xml:lang="en">Period</rdfs:label>
+        <rdfs:label xml:lang="vn">Thời kỳ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="vn">Con người</rdfs:label>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PersonClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PersonClass">
+        <rdfs:label xml:lang="vn">Giai cấp đẳng cấp, thứ hạng của nhân vật lịch sử</rdfs:label>
+        <rdfs:label xml:lang="en">PersonClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Phủ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Phủ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle">
+        <rdfs:label xml:lang="vn">Chức vụ</rdfs:label>
+        <rdfs:label xml:lang="en">PositionTitle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Prince -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Prince">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Princess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Princess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Protestantism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Protestantism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion"/>
+        <rdfs:label xml:lang="vn">Đạo tin lành</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Queen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Queen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Quán -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Quán">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Reference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Reference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Religion">
+        <rdfs:label xml:lang="en">Religion</rdfs:label>
+        <rdfs:label xml:lang="vn">Tôn giáo/ tín ngưỡng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtArchitectureHistoricalSite"/>
+        <rdfs:label xml:lang="vn">Kiến trúc tôn giáo - tín ngưỡng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousFestival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousFestival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionHistoryFestival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionHistoryFestival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionaryHistoricalSite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionaryHistoricalSite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite"/>
+        <rdfs:label xml:lang="vn">Di tích lịch sử cách mạng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ScenicHistoricalSites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ScenicHistoricalSites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HeritageSite"/>
+        <rdfs:label xml:lang="vn">Di tích thắng cảnh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#School">
+        <rdfs:label xml:lang="en">School</rdfs:label>
+        <rdfs:label xml:lang="vn">Trường học</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Shrine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Shrine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+        <rdfs:label xml:lang="vn">Miếu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sinitic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sinitic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm Hán</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">hóm Tày Thái</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Temple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Temple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+        <rdfs:label xml:lang="vn">Đền</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm Tạng-Miến</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Time">
+        <rdfs:label xml:lang="en">Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TraditionalFestival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TraditionalFestival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Festival"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Vietic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Vietic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm Việt Mường</rdfs:label>
+        <rdfs:label xml:lang="en">Vietic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Điện -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Điện">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousArchitecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đình_úy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đình_úy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_đốc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_đốc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_học_sĩ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_học_sĩ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_lý_tự -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_lý_tự">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_phụ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_phụ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_tướng -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_tướng">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_lĩnh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_lĩnh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_đốc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_đốc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_binh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_binh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_thị -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_thị">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_đồng -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_đồng">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PositionTitle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Date-time_interval&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Date-time_interval&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Proper_interval&apos;"/>
+        <rdfs:label xml:lang="en">Date-time interval</rdfs:label>
+        <skos:definition xml:lang="en">DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Proper_interval&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Proper_interval&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_interval&apos;"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_instant&apos;"/>
+        <rdfs:label xml:lang="en">Proper interval</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Temporal_entity&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Temporal_entity&apos;">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_instant&apos;"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_interval&apos;"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Time"/>
+        <rdfs:label xml:lang="en">Temporal entity</rdfs:label>
+        <skos:definition xml:lang="en">A temporal interval or instant.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_instant&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_instant&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Temporal_entity&apos;"/>
+        <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_interval&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Time_interval&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;Temporal_entity&apos;"/>
+        <rdfs:label xml:lang="en">Time interval</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with an extent or duration</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong–Mien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong–Mien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ethnic"/>
+        <rdfs:label xml:lang="vn">Nhóm H&apos;Mông - Dao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TRS -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TRS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalDuration -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalDuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TimeZone -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TimeZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AbroadImportedFestival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AbroadImportedFestival">
+        <rdfs:label xml:lang="en">AbroadImportedFestival</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Academics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Academics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AnDuongVuongTempleSubject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AnDuongVuongTempleSubject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+        <parentSubject rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CoLoaSubject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AnNam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AnNam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">An Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#An_Duong_Vuong_Temple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#An_Duong_Vuong_Temple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CitadelArchitecture"/>
+        <dc:subject rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AnDuongVuongTempleSubject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#An_Dương_Vương -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#An_Dương_Vương">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person"/>
+        <dc:subject rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ThucSubject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AncientPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AncientPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArchaeologicalRelic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArchaeologicalRelic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Archery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Archery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Art -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Art">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Articulate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Articulate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtisticArchitecturalMonuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ArtisticArchitecturalMonuments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AsscociateProfessor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AsscociateProfessor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Phó giáo sư</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AuLac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AuLac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Âu Lạc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AuLacDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AuLacDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <time:hasEnd rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;208_BC&apos;"/>
+        <rdfs:label xml:lang="vn">Thời kỳ  Âu Lạc</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AncientPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AutonomousRepublicOfCochinchina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AutonomousRepublicOfCochinchina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Cộng hòa Tự trị Nam Kỳ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Autumn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Autumn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ba_Na -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ba_Na">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Baccalaureate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Baccalaureate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <hasSameEducationDegreeLevel rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HighSchool"/>
+        <rdfs:label xml:lang="vn">Tú tài</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bachelor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bachelor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <hasSameEducationDegreeLevel rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HuongCong"/>
+        <rdfs:label xml:lang="vn">Cử nhân</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#BirthDay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#BirthDay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#BronzeAge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#BronzeAge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời đại đồ đồng</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PrehistoricPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Brâu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Brâu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bác_sĩ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bác_sĩ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Bác sĩ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bố_Y -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bố_Y">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bố_chính_sứ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bố_chính_sứ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Bố chính sứ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bột_cận -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bột_cận">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Bột cận</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_bạ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_bạ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Cai bạ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_cơ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_cơ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Cai cơ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_thuyền -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_thuyền">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Cai thuyền</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_đội -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cai_đội">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Cai đội</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Central -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Central">
+        <rdfs:label xml:lang="en">Central</rdfs:label>
+        <rdfs:label xml:lang="vn">Miền Trung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Central_Highlands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Central_Highlands">
+        <rdfs:label xml:lang="en">Central Highlands</rdfs:label>
+        <rdfs:label xml:lang="vn">vùng Tây Nguyên</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chu_Ru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chu_Ru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chánh_sứ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chánh_sứ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Chánh sứ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chăm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chăm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chơ_Ro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chơ_Ro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_cơ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_cơ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Chưởng cơ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_dinh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_dinh">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Chưởng dinh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_doanh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_doanh">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Chưởng doanh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_vệ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chưởng_vệ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Chưởng vệ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chứt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Chứt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Vietic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Civilian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Civilian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization"/>
+        <rdfs:label xml:lang="vn">Người dân</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Co -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Co">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CoLoaSubject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CoLoaSubject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#College -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#College">
+        <rdfs:label xml:lang="en">College</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Colleges -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Colleges">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Cao đẳng</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalEvolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalEvolution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalRelics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CulturalHistoricalRelics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cơ_Ho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cơ_Ho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cơ_Tu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cơ_Tu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cổ_Loa_Citadel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cổ_Loa_Citadel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CitadelArchitecture"/>
+        <chosenCapitalBy rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#An_Dương_Vương"/>
+        <chosenCapitalBy rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Quyền"/>
+        <chosenCapitalBy rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Xương_Văn"/>
+        <hasAdministrativeDivision rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hà_Nội"/>
+        <hasBuildBy rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#An_Dương_Vương"/>
+        <hasBuildTime xml:lang="en">3rd century</hasBuildTime>
+        <hasCountry rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AuLac"/>
+        <hasFestival rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lễ_hội_Cổ_Loa"/>
+        <hasHistoricalSiteLevel rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SepcialNationalLevel"/>
+        <hasPeriod rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NgoDynasty"/>
+        <rdfs:label xml:lang="en">Cổ Loa Citade</rdfs:label>
+        <rdfs:label xml:lang="vn">Thành Cổ Loa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cờ_Lao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Cờ_Lao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiCoViet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiCoViet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Đại Cồ Việt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiNam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiNam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Đại Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiNgu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiNgu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Đại Ngu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiViet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DaiViet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Đại Việt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong–Mien"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Decentralized -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Decentralized">
+        <hasChronology rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1527–1802"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DeclaresIndependencePeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DeclaresIndependencePeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Tuyên bố độc lập</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DemocraticRepublicOfVietnam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DemocraticRepublicOfVietnam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Việt Nam Dân Chủ Cộng Hòa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DinhDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#DinhDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Đinh</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Doctor_of_Philosophy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Doctor_of_Philosophy">
+        <rdfs:label xml:lang="en">Doctor of Philosophy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dương_Bình_Vương -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dương_Bình_Vương">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EarlyLeDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EarlyLeDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Tiền Lê</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EarlyLyDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EarlyLyDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Tiền Lý</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EmprieOfVietNam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EmprieOfVietNam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Đế quốc Việt Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Engineer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Engineer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Kỹ sư</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EthnicOrigins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EthnicOrigins"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Female -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Female"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Financial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Financial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FirstChineseDomination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FirstChineseDomination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <time:hasEnd rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#39"/>
+        <hasChronology rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#111_BC–40_AD"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ nhất</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FourthChineseDomination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FourthChineseDomination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ tư</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FrenchColonialPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FrenchColonialPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời kỳ Pháp thuộc</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FrenchIndochina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#FrenchIndochina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Liên bang Đông Dương</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Gia_Rai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Gia_Rai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#GiaoChau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#GiaoChau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Giao Châu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Giáy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Giáy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Giẻ_Triêng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Giẻ_Triêng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization"/>
+        <rdfs:label xml:lang="vn">Chính phủ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HighSchool -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HighSchool">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <hasSameEducationDegreeLevel rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Baccalaureate"/>
+        <rdfs:label xml:lang="vn">Trung học phổ thông</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricalRevolutionRelics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricalRevolutionRelics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong–Mien"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HoDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HoDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Hồ</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hoa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hoa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sinitic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Horsing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Horsing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hrê -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hrê">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Humor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Humor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HuongCong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HuongCong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <hasSameEducationDegreeLevel rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Bachelor"/>
+        <rdfs:label xml:lang="vn">Hương Cống</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hà_Nhì -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hà_Nhì">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hà_Nội -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hà_Nội">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AdministrativeDivision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Independent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Independent">
+        <hasChronology rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#938–1407"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#IndochinaWar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#IndochinaWar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Chiến tranh Đông Dương</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Intermediate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Intermediate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Trung cấp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#IronAge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#IronAge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời đại đồ sắt</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PrehistoricPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#JapaneseColonialPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#JapaneseColonialPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời kỳ Nhật thuộc</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Jiaozhi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Jiaozhi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Bộ Giao Chỉ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#JuniorHighSchool -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#JuniorHighSchool">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Trung học cơ sở</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Khmer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Khmer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#KhucFamily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#KhucFamily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Họ Khúc</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kháng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kháng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Khơ_Mú -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Khơ_Mú">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King_Ngô_Quyền -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King_Ngô_Quyền">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King"/>
+        <hasReignFrom xml:lang="en">Year 938</hasReignFrom>
+        <hasReignTo xml:lang="en">Year 939</hasReignTo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kinh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kinh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Vietic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#La_Chí -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#La_Chí">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#La_Ha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#La_Ha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#La_Hủ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#La_Hủ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LeDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LeDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <orKnownAs xml:lang="en">LaterLeDynasty</orKnownAs>
+        <rdfs:label xml:lang="vn">Nhà Hậu Lê</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LeTrungHunDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LeTrungHunDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Lê Trung Hưng</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Leadership -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Leadership">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Legal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Legal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LinhNam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LinhNam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Lĩnh Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Literature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Literature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Logistics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Logistics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LyDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#LyDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Lý</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lô_Lô -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lô_Lô">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lý_Thường_Kiệt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lý_Thường_Kiệt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person"/>
+        <wasDerivedFrom rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#fbc824608bf047fcbfb803c1b0f98e66f4372207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lễ_hội_Cổ_Loa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lễ_hội_Cổ_Loa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TraditionalFestival"/>
+        <hasTimeHappen xml:lang="en">The fifth day of the fifth month of the lunar Vietnamese calendar</hasTimeHappen>
+        <rdfs:label xml:lang="en">Cổ Loa Festival</rdfs:label>
+        <rdfs:label xml:lang="vn">Lễ hội Cổ Loa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lự -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Lự">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#MacDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#MacDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Mạc</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Male -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Male"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Master -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Master">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Thạc sĩ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Math -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Math">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Military -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Military">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization"/>
+        <rdfs:label xml:lang="vn">Quân đội</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#MilitaryManagerment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#MilitaryManagerment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mnông -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mnông">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#MonarchicalPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#MonarchicalPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời kỳ quân chủ</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Music -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Music">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mường -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mường">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Vietic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mạ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mạ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mảng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Mảng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NamViet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NamViet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Nam Việt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NationalHeritage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NationalHeritage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NationalLevel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NationalLevel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricSiteLevel"/>
+        <rdfs:label xml:lang="vn">Di tích quốc gia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NationalMonumentsSpecial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NationalMonumentsSpecial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Negotiating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Negotiating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NgoDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NgoDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Ngô</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NguyenDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NguyenDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Nguyễn</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngái -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngái">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sinitic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Quyền -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Quyền">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person"/>
+        <hasBorn xml:lang="en">17 April 898</hasBorn>
+        <hasBornAt rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ái_Châu"/>
+        <hasDied xml:lang="en">14 February 944</hasDied>
+        <hasJob rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King_Ngô_Quyền"/>
+        <hasPeriod rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NgoDynasty"/>
+        <hasSuccessor rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Dương_Bình_Vương"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Quyền_Mausoleum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Quyền_Mausoleum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#CitadelArchitecture"/>
+        <rdfs:label xml:lang="vn">Lăng Ngô Quyền</rdfs:label>
+        <rdfs:label xml:lang="en">Ngô Quyền Mausoleum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Xương_Văn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ngô_Xương_Văn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Nha_lại -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Nha_lại"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#North_Central_and_Central_Coast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#North_Central_and_Central_Coast">
+        <rdfs:label xml:lang="en">North Central and Central Coast</rdfs:label>
+        <rdfs:label xml:lang="vn">vùng Bắc Trung Bộ và Duyên hải miền Trung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Northern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Northern">
+        <rdfs:label xml:lang="vn">Miền Bắc</rdfs:label>
+        <rdfs:label xml:lang="en">Northern</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Northern_Midlands_and_Mountains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Northern_Midlands_and_Mountains">
+        <rdfs:label xml:lang="en">Northern Midlands and Mountains</rdfs:label>
+        <rdfs:label xml:lang="vn">Trung du và Miền núi phía Bắc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Nùng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Nùng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Other -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Other"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherEvent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherEvent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherFestival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherFestival"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Parliament -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Parliament">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization"/>
+        <rdfs:label xml:lang="vn">Quốc hội</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PhD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PhD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Tiến sĩ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PhoBang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PhoBang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Phó bảng</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Phunoi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Phunoi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Phù_Lá -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Phù_Lá">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Planning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Poetry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Poetry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PostWarEvent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PostWarEvent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PrehistoricPeriod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PrehistoricPeriod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Tiểu học</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary_I">
+        <rdfs:label xml:lang="en">Primary I</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary_II">
+        <rdfs:label xml:lang="en">Primary II</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary_III -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Primary_III">
+        <rdfs:label xml:lang="en">Primary III</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Prince -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Prince"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Princess -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Princess"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Professor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Professor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#EducationDegreeTitle"/>
+        <rdfs:label xml:lang="vn">Giáo sư</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ProvincialLevel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ProvincialLevel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricSiteLevel"/>
+        <rdfs:label xml:lang="vn">Di tích cấp tỉnh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ProvincialLevelMonuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ProvincialLevelMonuments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ProvisionalRevolutionaryGovernmentOfTheRepublicOfSouthVietnam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ProvisionalRevolutionaryGovernmentOfTheRepublicOfSouthVietnam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Chính phủ Cách mạng Lâm thời Cộng hòa Miền Nam Việt Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Pu_Péo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Pu_Péo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Kra"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Pà_Thẻn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Pà_Thẻn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Hmong–Mien"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Quan_lại -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Quan_lại"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Queen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Queen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ra_Glai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ra_Glai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Rainy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Rainy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Red_River_Delta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Red_River_Delta">
+        <rdfs:label xml:lang="en">Red River Delta</rdfs:label>
+        <rdfs:label xml:lang="vn">vùng Đồng bằng sông Hồng</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReformEvent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReformEvent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RelicInCulturalHeritageList -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RelicInCulturalHeritageList"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousFestival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousFestival"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RenovatedEra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RenovatedEra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời kỳ đổi mới</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RepublicOfVietnam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RepublicOfVietnam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Việt Nam Cộng Hòa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Restored -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Restored">
+        <hasChronology rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1428–1527"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionHistoryFestival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionHistoryFestival"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Royal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Royal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Organization"/>
+        <rdfs:label xml:lang="vn">Hoàng gia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Rơ_Măm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Rơ_Măm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ScenicMonuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ScenicMonuments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SecondChineseDomination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SecondChineseDomination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <hasChronology rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#43–544"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ hai</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SepcialNationalLevel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SepcialNationalLevel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricSiteLevel"/>
+        <rdfs:label xml:lang="vn">Di tích quốc gia đặc biệt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Shooting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Shooting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Si_La -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Si_La">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tibet-Burma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SocialistRepublicOfVietnam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#SocialistRepublicOfVietnam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Cộng hòa Xã hội chủ nghĩa Việt Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#South -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#South">
+        <rdfs:label xml:lang="vn">Miền Bắc</rdfs:label>
+        <rdfs:label xml:lang="en">South</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Spring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Spring"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#StateOfVietnam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#StateOfVietnam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Quốc gia Việt Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#StoneAge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#StoneAge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời đại đồ đá</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#PrehistoricPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Summer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Summer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Swimming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Swimming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sán_Chay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sán_Chay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sán_Dìu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sán_Dìu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Sinitic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Taming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Taming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Taxes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Taxes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TaySonDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TaySonDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Nhà Tây Sơn</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Teaching -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Teaching">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thanh_Hóa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thanh_Hóa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AdministrativeDivision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#The_Mekong_Delta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#The_Mekong_Delta">
+        <rdfs:label xml:lang="en">The Mekong Delta</rdfs:label>
+        <rdfs:label xml:lang="vn">Vùng Đồng Bằng Sông Cửu Long</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ThirdChineseDomination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ThirdChineseDomination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ ba</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ThucSubject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ThucSubject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thái -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thái">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thăng_Long -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thăng_Long">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AdministrativeDivision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thổ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thổ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Vietic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TinhHaiQuan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TinhHaiQuan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">TinhHaiQuan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TraditionalFestival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TraditionalFestival"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TranDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TranDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">TranDynasty</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TrieuRulingDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TrieuRulingDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <time:hasEnd rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#111_BC"/>
+        <rdfs:label xml:lang="vn">Nhà Triệu cai trị</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TrungSisters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TrungSisters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Hai Bà Trưng</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ChineseDominationPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tà_Ôi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tà_Ôi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tày -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tày">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Tai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Unified -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Unified">
+        <hasChronology rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1802–1858"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#UnifiedEra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#UnifiedEra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời kỳ thống nhất</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#University -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#University"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VanLang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VanLang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Văn Lang</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VanLangDynasty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VanLangDynasty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Thời kỳ Văn Lang</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AncientPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VanXuan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VanXuan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Vạn Xuân</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VietNam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VietNam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Việt Nam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VietNamWar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#VietNamWar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Period"/>
+        <rdfs:label xml:lang="vn">Chiến tranh Việt Nam</rdfs:label>
+        <skos:narower rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ModernPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Văn_Miếu_-_Quốc_Tử_Giám -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Văn_Miếu_-_Quốc_Tử_Giám">
+        <hasDegree rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Doctor_of_Philosophy"/>
+        <rdfs:label xml:lang="en">Văn Miếu - Quốc Tử Giám</rdfs:label>
+        <rdfs:label xml:lang="vn">Văn Miếu - Quốc Tử Giám</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#WarEvent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#WarEvent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#HistoricEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Winter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Winter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Wisdom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Wisdom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#WorldRelics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#WorldRelics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Writing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Writing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#NaturalTalent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#XichQuy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#XichQuy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Country"/>
+        <rdfs:label xml:lang="vn">Xích Quỷ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Xinh_Mun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Xinh_Mun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Xơ_Đăng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Xơ_Đăng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#fbc824608bf047fcbfb803c1b0f98e66f4372207 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#fbc824608bf047fcbfb803c1b0f98e66f4372207">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Reference"/>
+        <stateIn>https://nguoikesu.com/nhan-vat/ly-thuong-kiet</stateIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#the_Southeast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#the_Southeast">
+        <rdfs:label xml:lang="en">The Southeast</rdfs:label>
+        <rdfs:label xml:lang="vn">Vùng Đông Nam Bộ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ái_Châu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ái_Châu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#AdministrativeDivision"/>
+        <isApartOf rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Thanh_Hóa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Án_sát_sứ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Án_sát_sứ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Án sát sứ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ê_Đê -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ê_Đê">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Malayo-Polynesian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_chỉ_huy_sứ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_chỉ_huy_sứ">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Đô chỉ huy sứ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_đốc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_đốc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_học_sĩ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_học_sĩ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_tư_mã -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_tư_mã">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Đại tư mã</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_lĩnh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_lĩnh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_học -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đốc_học">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Đốc học</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ơ_Đu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Ơ_Đu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;208_BC&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#&apos;208_BC&apos;"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#111_BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#111_BC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#111_BC–40_AD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#111_BC–40_AD">
+        <rdfs:label xml:lang="en">111 BC–40 AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1407–1427 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1407–1427">
+        <rdfs:label xml:lang="en">1407–1427</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1428–1527 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1428–1527">
+        <rdfs:label xml:lang="en">1428–1527</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1527–1802 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1527–1802">
+        <rdfs:label xml:lang="en">1527–1802</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1802–1858 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1802–1858">
+        <rdfs:label xml:lang="en">1802–1858</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1858–1945 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1858–1945">
+        <rdfs:label xml:lang="en">1858–1945</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1945–present -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#1945–present">
+        <rdfs:label xml:lang="en">1945–present</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#207_BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#207_BC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#207–111_BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#207–111_BC">
+        <rdfs:label xml:lang="en">207–111 BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#257_BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#257_BC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#257–179_BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#257–179_BC">
+        <rdfs:label xml:lang="en">257–179 BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#2879-250_BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#2879-250_BC">
+        <rdfs:label xml:lang="en">2879-250 BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#39"/>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#40–43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#40–43">
+        <rdfs:label xml:lang="en">40–43</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#43–544 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#43–544">
+        <rdfs:label xml:lang="en">43–544</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#544–602 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#544–602">
+        <rdfs:label xml:lang="en">544–602</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#602–905 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#602–905">
+        <rdfs:label xml:lang="en">602–905</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#905–938 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#905–938">
+        <rdfs:label xml:lang="en">905–938</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#938–1407 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#938–1407">
+        <rdfs:label xml:lang="en">938–1407</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#X’Tiêng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#X’Tiêng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Austroasiatic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#King">
+        <rdfs:label xml:lang="vn">Vua</rdfs:label>
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Royal"/>
+        <rdfs:label xml:lang="en">King</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#OtherFestival">
+        <rdfs:label xml:lang="en">OtherFestival</rdfs:label>
+        <rdfs:label xml:lang="vn">Lễ hội khác</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Prince">
+        <rdfs:label xml:lang="en">Prince</rdfs:label>
+        <rdfs:label xml:lang="en">Hoàng tử</rdfs:label>
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Royal"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Princess">
+        <rdfs:label xml:lang="vn">Công chúa</rdfs:label>
+        <rdfs:label xml:lang="en">Princess</rdfs:label>
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Royal"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Queen">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Royal"/>
+        <hasOrganization xml:lang="en">Queen</hasOrganization>
+        <hasOrganization xml:lang="vn">Nữ hoàng</hasOrganization>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#ReligiousFestival">
+        <rdfs:label xml:lang="vn">Lễ hội tôn giáo</rdfs:label>
+        <rdfs:label xml:lang="en">ReligiousFestival</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#RevolutionHistoryFestival">
+        <rdfs:label xml:lang="en">RevolutionHistoryFestival</rdfs:label>
+        <rdfs:label xml:lang="vn">Lễ hội lịch sử cách mạng</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#TraditionalFestival">
+        <rdfs:label xml:lang="vn">Lễ hội dân gian</rdfs:label>
+        <rdfs:label xml:lang="en">TraditionalFestival</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đô_đốc">
+        <rdfs:label xml:lang="vn">Đô đốc</rdfs:label>
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đại_học_sĩ">
+        <rdfs:label xml:lang="vn">Đại học sĩ</rdfs:label>
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Đề_lĩnh">
+        <hasOrganization rdf:resource="http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#Government"/>
+        <rdfs:label xml:lang="vn">Đề lĩnh</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

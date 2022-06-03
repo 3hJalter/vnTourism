@@ -1,0 +1,11 @@
+@prefix vntourism: <http://www.semanticweb.org/minhn/ontologies/2021/0/vntourism#> .
+vntourism:Cổ_Loa_Citadel rdf:type owl:NamedIndividual, vntourism:CitadelArchitecture ;
+vntourism:chosenCapitalBy vntourism:An_Dương_Vương, vntourism:Ngô_Quyền, vntourism:Ngô_Xương_Văn;
+vntourism:hasAdministrativeDivision vntourism:Hà_Nội;
+vntourism:hasBuildBy vntourism:An_Dương_Vương;
+vntourism:hasBuildTime "3rd century"@en;
+vntourism:hasCountry vntourism:AuLac;
+vntourism:hasFestival vntourism:Lễ_hội_Cổ_Loa;
+vntourism:hasHistoricalSiteLevel vntourism:SepcialNationalLevel;
+vntourism:hasPeriod vntourism:NgoDynasty;
+rdfs:label "Cổ Loa Citade"@en, "Thành Cổ Loa"@vn.
